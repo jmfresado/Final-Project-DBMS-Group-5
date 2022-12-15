@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>354</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="DLName">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>350</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLAgeLabel">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>380</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AGE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="DLAge">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>380</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLAddressLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDRESS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLNameLabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>350</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NAME</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLPhonenumberLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>470</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PHONE NUMBER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLTitle">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>260</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;Bahnschrift&quot;;</string>
+   </property>
+   <property name="text">
+    <string>DRIVER'S LICENSE</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="DLAddress">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>440</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLBirthdateLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>410</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BIRTHDATE</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="DLFcheckBox_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>320</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Female</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="DLPhonenumber">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>470</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/IMAGE/2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="DLMcheckBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Male</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DLSubmit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>540</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+color: white;
+background-color: rgb(0, 0, 0);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>SUBMIT</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="DLIdNumber">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>290</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLNameLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>290</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID NUMBER</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="DLBirthdate">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>410</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DLIMAGE">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>500</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bebas</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Bebas&quot;;
+color: white;
+background-color: rgb(0, 0, 0);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>UPLOAD IMAGE</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>DLName</zorder>
+  <zorder>DLAgeLabel</zorder>
+  <zorder>DLAge</zorder>
+  <zorder>DLAddressLabel</zorder>
+  <zorder>DLNameLabel</zorder>
+  <zorder>DLPhonenumberLabel</zorder>
+  <zorder>DLTitle</zorder>
+  <zorder>DLAddress</zorder>
+  <zorder>DLBirthdateLabel</zorder>
+  <zorder>DLFcheckBox_2</zorder>
+  <zorder>DLPhonenumber</zorder>
+  <zorder>DLMcheckBox</zorder>
+  <zorder>DLSubmit</zorder>
+  <zorder>DLIdNumber</zorder>
+  <zorder>DLNameLabel_2</zorder>
+  <zorder>DLBirthdate</zorder>
+  <zorder>DLIMAGE</zorder>
+ </widget>
+ <resources>
+  <include location="IMAGES.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>DLMcheckBox</sender>
+   <signal>clicked()</signal>
+   <receiver>DLFcheckBox_2</receiver>
+   <slot>toggle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>191</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DLFcheckBox_2</sender>
+   <signal>clicked()</signal>
+   <receiver>DLMcheckBox</receiver>
+   <slot>toggle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>231</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>150</x>
+     <y>345</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

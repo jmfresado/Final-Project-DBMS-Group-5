@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>378</width>
+    <height>781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="CREATEID">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>290</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>CREATE ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DELETEID">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>510</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>DELETE ID</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="DELETEcomboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>440</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Bahnschrift Condensed&quot;;
+color: white;
+background-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>CHOOSE ID</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>371</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image:url(:/IMAGE/2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PRINTID">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>510</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>PRINT ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UPDATEID">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>UPDATE ID</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>CREATEID</zorder>
+  <zorder>DELETEID</zorder>
+  <zorder>DELETEcomboBox</zorder>
+  <zorder>PRINTID</zorder>
+  <zorder>UPDATEID</zorder>
+ </widget>
+ <resources>
+  <include location="IMAGES.qrc"/>
+ </resources>
+ <connections/>
+</ui>

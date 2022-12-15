@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>739</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="ID2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>301</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>ID 2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>381</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/IMAGE/2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ID3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>410</y>
+     <width>301</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>ID 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ID4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>500</y>
+     <width>301</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>ID 4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DRIVERSLICENSE">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>301</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Bebas&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>DRIVER'S LICENSE</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>ID2</zorder>
+  <zorder>ID3</zorder>
+  <zorder>ID4</zorder>
+  <zorder>DRIVERSLICENSE</zorder>
+ </widget>
+ <resources>
+  <include location="IMAGES.qrc"/>
+ </resources>
+ <connections/>
+</ui>
